@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="579.0" prefWidth="872.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_Home">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="441.0" layoutX="14.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="160.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="441.0" layoutX="186.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="160.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="441.0" layoutX="356.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="160.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="441.0" layoutX="524.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="160.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="441.0" layoutX="698.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="160.0" />
+      <ImageView fitHeight="127.0" fitWidth="95.0" layoutX="47.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/capital.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="139.0" fitWidth="135.0" layoutX="711.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/advertising_top.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="119.0" layoutX="546.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/loss.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="135.0" layoutX="369.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/profit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="95.0" layoutX="219.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/capital_recovered.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="51.0" layoutY="78.0" text="Capital" textFill="#0a6bfc">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="78.0" text="R. Capital" textFill="#f90afa">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="403.0" layoutY="78.0" text="Profit" textFill="#12bf02">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="550.0" layoutY="78.0" text="F. Losses" textFill="#ff462e">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="708.0" layoutY="78.0" text="Advertising" textFill="#27167c">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="Home_capital_label" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="347.0" prefHeight="43.0" prefWidth="140.0" text="Connect" textFill="#0a6bfc">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Home_recovered_capital" alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="347.0" prefHeight="43.0" prefWidth="124.0" text="Connect" textFill="#f90afa">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Home_profit_label" alignment="CENTER" contentDisplay="CENTER" layoutX="372.0" layoutY="347.0" prefHeight="43.0" prefWidth="135.0" text="Connect" textFill="#12bf02">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_loss_in_home_page" alignment="CENTER" layoutX="551.0" layoutY="347.0" prefHeight="43.0" prefWidth="124.0" text="0,00 € " textFill="#ff462e">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Home_advertising_label" alignment="CENTER" contentDisplay="CENTER" layoutX="714.0" layoutY="347.0" prefHeight="43.0" prefWidth="135.0" text="Connect" textFill="#27167c">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

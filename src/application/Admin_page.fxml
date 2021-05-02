@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="admin_page_AnchorPane" onMousePressed="#mouse_pressedOn_anchorPane" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_Admin_page">
+   <children>
+      <ImageView fitHeight="96.0" fitWidth="99.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Only%20logo%20tiguera.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="258.0" layoutY="23.0" text="Welcome" textFill="#ff9a00">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="423.0" layoutY="23.0" text="Admin" textFill="#4b4d6f">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Line endX="182.0" layoutX="359.0" layoutY="78.0" startX="-100.0" />
+      <JFXTextField fx:id="textfield_new_password" alignment="CENTER" layoutX="152.0" layoutY="232.0" prefHeight="31.0" prefWidth="129.0" />
+      <Label layoutX="14.0" layoutY="179.0" text="Selected user :" textFill="#2f2843">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="242.0" text="New password :" textFill="#2f2843">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="change_button" layoutX="112.0" layoutY="303.0" onAction="#change_button_action" ripplerFill="#f4ff00" style="-fx-background-color: #f4ff00;" text="Change">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <BorderPane layoutX="296.0" layoutY="137.0" prefHeight="210.0" prefWidth="465.0">
+         <left>
+            <TableView fx:id="table" onMousePressed="#select_a_user_method" prefHeight="210.0" prefWidth="491.0" stylesheets="@../css%20button/WareHousePage/table.css" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="col_id" prefWidth="75.0" text="id" />
+                <TableColumn fx:id="col_username" prefWidth="182.0" text="username" />
+                  <TableColumn fx:id="col_password" prefWidth="233.0" text="password" />
+              </columns>
+            </TableView>
+         </left>
+      </BorderPane>
+      <Label fx:id="label_logout" layoutX="697.0" layoutY="357.0" onMousePressed="#logout_pressed" prefHeight="35.0" prefWidth="89.0" text="Log out" textFill="#2f2843">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="label_set_selected_item" layoutX="148.0" layoutY="182.0" prefHeight="26.0" prefWidth="137.0" textFill="#ff9a00">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

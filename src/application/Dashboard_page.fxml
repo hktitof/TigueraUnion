@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashboard_full_AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="1102.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_Dashboard">
+   <children>
+      <BorderPane prefHeight="689.0" prefWidth="1102.0" style="-fx-background-color: #eaeaea;" stylesheets="@../css%20button/style_pages_buttons.css">
+         <left>
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="689.0" prefWidth="220.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox onMousePressed="#page1" styleClass="hover_border">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="20.0" />
+                     </VBox.margin>
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0" translateX="8.0">
+                           <image>
+                              <Image url="@../images/home_png.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Home" translateX="32.0" translateY="6.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox onMousePressed="#page2" styleClass="hover_border">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <ImageView fitHeight="25.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0" translateX="8.0">
+                           <image>
+                              <Image url="@../images/warehouse_image.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="WareHouse" translateX="17.0" translateY="3.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox onMousePressed="#page3" styleClass="hover_border">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <ImageView fitHeight="17.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" scaleX="3.0" scaleY="3.0" translateX="26.0">
+                           <image>
+                              <Image url="@../images/advertising_logo.png" />
+                           </image>
+                           <rotationAxis>
+                              <Point3D />
+                           </rotationAxis>
+                        </ImageView>
+                        <Label text="Advertising" translateX="45.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox onMousePressed="#page4" styleClass="hover_border">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <ImageView fitHeight="17.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" scaleX="2.8" scaleY="3.0" translateX="19.0" translateY="4.0">
+                           <image>
+                              <Image url="@../images/Selling.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Selling" translateX="54.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox onMousePressed="#page5" styleClass="hover_border">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <ImageView fitHeight="22.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" scaleX="2.2" scaleY="1.9" translateX="23.0">
+                           <image>
+                              <Image url="@../images/returns.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Returns" translateX="60.0">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox styleClass="hover_border">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <FontAwesomeIcon />
+                        <Label text="Label">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox styleClass="hover_border">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <FontAwesomeIcon />
+                        <Label text="Label">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox styleClass="hover_border">
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <FontAwesomeIcon />
+                        <Label text="Label">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <opaqueInsets>
+                  <Insets top="5.0" />
+               </opaqueInsets>
+            </VBox>
+         </left>
+         <center>
+            <AnchorPane fx:id="StackPane_Changer" prefHeight="579.0" prefWidth="872.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </AnchorPane>
+         </center>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <top>
+            <HBox fx:id="hbox_top" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="99.0" fitWidth="232.0" pickOnBounds="true" preserveRatio="true" scaleX="0.9" scaleY="0.8" translateX="7.0">
+                     <image>
+                        <Image url="@../images/tiguera_logo_dashboard.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="56.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" scaleY="0.95" translateX="26.0" translateY="29.0">
+                     <image>
+                        <Image url="@../images/capital.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="label_capital" prefHeight="35.0" prefWidth="85.0" text="connect" textFill="#3400ff" translateX="36.0" translateY="35.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Label>
+                  <ImageView fitHeight="56.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" scaleY="0.95" translateX="35.0" translateY="29.0">
+                     <image>
+                        <Image url="@../images/capital_recovered.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="45.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" scaleX="0.7" scaleY="0.8" translateX="-15.0" translateY="13.0">
+                     <image>
+                        <Image url="@../images/arrow.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="49.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" scaleY="0.8" translateX="109.0" translateY="23.0">
+                     <image>
+                        <Image url="@../images/profit.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true" translateX="495.0" translateY="28.0">
+                     <image>
+                        <Image url="@../images/dashboard_user_type_icon.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="label_username" prefHeight="35.0" prefWidth="113.0" text="connect" textFill="#ff3f00" translateX="502.0" translateY="35.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_profit" prefHeight="35.0" prefWidth="84.0" text="connect" textFill="#298a3b" translateX="-45.0" translateY="35.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Label>
+                  <ImageView fitHeight="46.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="0.9" translateX="-42.0" translateY="22.0">
+                     <image>
+                        <Image url="@../images/loss.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="label_loss" prefHeight="35.0" prefWidth="89.0" text="connect" textFill="RED" translateX="-21.0" translateY="35.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Label>
+                  <ImageView fitHeight="45.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" scaleX="0.7" scaleY="0.8" translateX="-437.0" translateY="13.0">
+                     <image>
+                        <Image url="@../images/arrow.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="label_recovered_capital" prefHeight="35.0" prefWidth="84.0" text="connect" textFill="#f800ff" translateX="-435.0" translateY="35.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font></Label>
+                  <ImageView fitHeight="46.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" translateX="-141.0" translateY="27.0">
+                     <image>
+                        <Image url="@../images/advertising_top.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="label_advertising" prefHeight="35.0" prefWidth="89.0" text="connect" textFill="#4b5477" translateX="-124.0" translateY="35.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

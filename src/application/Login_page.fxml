@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="login_AnchorPane" prefHeight="554.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <AnchorPane fx:id="blueAnchorpane" prefHeight="554.0" prefWidth="373.0" style="-fx-background-color: #d5e5ff;">
+         <children>
+            <ImageView fx:id="image_tiguera_big_logo" fitHeight="554.0" fitWidth="379.0" layoutX="-6.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logo%20tiguera%20nl.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="label_internationa_ecom" layoutX="113.0" layoutY="416.0" prefHeight="13.0" prefWidth="142.0" text="International e-commerce company">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_created_by" layoutX="126.0" layoutY="430.0" prefHeight="13.0" prefWidth="116.0" text="created by ANAFLOUS group">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="user_big_logo" fitHeight="156.0" fitWidth="164.0" layoutX="523.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/login%20logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="user_icon" fitHeight="40.0" fitWidth="43.0" layoutX="475.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/username%20logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="password_icon" fitHeight="30.0" fitWidth="50.0" layoutX="467.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/lock%20screen%20logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label_forgot_your_passeord" layoutX="530.0" layoutY="476.0" onMousePressed="#mouse_pressed_forgot_password" prefHeight="20.0" prefWidth="142.0" text="Forgot your password?" textFill="#ff5a00">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="label_copyrights" layoutX="447.0" layoutY="521.0" prefHeight="19.0" prefWidth="279.0" text="All rights reserved © 2020 ANAFLOUS Abdellatif">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <JFXTextField fx:id="textfield_username" alignment="CENTER" layoutX="519.0" layoutY="275.0" onKeyPressed="#username_typing" prefHeight="31.0" prefWidth="169.0" unFocusColor="#ff6500" />
+      <JFXPasswordField fx:id="passwordfield_password" alignment="CENTER" layoutX="519.0" layoutY="316.0" onKeyPressed="#password_1_typing" prefHeight="31.0" prefWidth="169.0" unFocusColor="#ff6500" />
+      <JFXCheckBox fx:id="checkbox_show_password" checkedColor="#ff9600" layoutX="519.0" layoutY="360.0" onAction="#checkbox_view" onKeyPressed="#check_checkbox_method" prefHeight="18.0" prefWidth="100.0" text="show password" textFill="#0093ff">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </JFXCheckBox>
+      <JFXButton fx:id="login_button" layoutX="494.0" layoutY="407.0" onAction="#action_login_button" onKeyPressed="#login_button_pressed" prefHeight="31.0" prefWidth="91.0" ripplerFill="RED" style="-fx-background-color: f6ff00;" text="Login" />
+      <JFXButton fx:id="quit_button" layoutX="606.0" layoutY="407.0" onAction="#action_quit_button" onKeyPressed="#quit_button_pressed" prefHeight="31.0" prefWidth="91.0" ripplerFill="RED" style="-fx-background-color: f6ff00;" text="quit" />
+      <JFXTextField fx:id="textfield_password" alignment="CENTER" layoutX="519.0" layoutY="316.0" onKeyPressed="#password_2_typing" prefHeight="31.0" prefWidth="169.0" unFocusColor="#ff6500" />
+   </children>
+</AnchorPane>

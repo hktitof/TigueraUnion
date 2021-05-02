@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="selling_anchorPnane" onMousePressed="#mouse_clicked_on_anchorPane" prefHeight="579.0" prefWidth="872.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_Selling_Page">
+   <children>
+      <ImageView fitHeight="40.0" fitWidth="56.0" layoutX="352.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Selling.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="table" layoutX="11.0" layoutY="80.0" onMouseClicked="#clicked_on_table" prefHeight="319.0" prefWidth="850.0" stylesheets="@../css%20button/WareHousePage/table.css">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="47.0" text="id" />
+          <TableColumn fx:id="col_product_name" prefWidth="133.0" text="product name" />
+            <TableColumn fx:id="col_price" prefWidth="83.0" text="price" />
+            <TableColumn fx:id="col_shipping" prefWidth="74.0" text="shipping" />
+            <TableColumn fx:id="col_platform" prefWidth="113.0" text="Platform" />
+            <TableColumn fx:id="col_date" prefWidth="90.0" text="date" />
+            <TableColumn fx:id="col_client" prefWidth="309.0" text="client" />
+        </columns>
+      </TableView>
+      <JFXComboBox fx:id="combobox_product_name" focusColor="#ffbf00" layoutX="40.0" layoutY="429.0" prefHeight="31.0" prefWidth="175.0" promptText="product name" />
+      <TextField fx:id="textfield_price" layoutX="34.0" layoutY="484.0" promptText="price" />
+      <TextField fx:id="tetfield_shipping_price" layoutX="34.0" layoutY="534.0" promptText="Shipping price" />
+      <Label layoutX="38.0" layoutY="401.0" text="product information" textFill="#ff620a">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textare_client_info" layoutX="251.0" layoutY="441.0" prefHeight="125.0" prefWidth="302.0" promptText="Name,address...." />
+      <Label layoutX="317.0" layoutY="401.0" text="Client Information" textFill="#ff620a">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_add" layoutX="564.0" layoutY="534.0" mnemonicParsing="false" onAction="#add_button_action" prefHeight="31.0" prefWidth="70.0" style="-fx-background-color: #d02020;" stylesheets="@../css%20button/WareHousePage/add_button.css" text="Add">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button_update" layoutX="640.0" layoutY="534.0" mnemonicParsing="false" onAction="#update_button_action" prefHeight="31.0" prefWidth="70.0" style="-fx-background-color: #ff8800;" stylesheets="@../css%20button/WareHousePage/update_button.css" text="Update">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button_Delete" layoutX="718.0" layoutY="534.0" mnemonicParsing="false" onAction="#delete_button_action" prefHeight="31.0" prefWidth="70.0" style="-fx-background-color: #00ff0f;" stylesheets="@../css%20button/WareHousePage/delete_button.css" text="Delete">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="button_clear" layoutX="797.0" layoutY="534.0" mnemonicParsing="false" onAction="#clear_button_action" prefHeight="31.0" prefWidth="70.0" style="-fx-background-color: #00efff;" stylesheets="@../css%20button/WareHousePage/clear_button.css" text="Clear">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="textfield_platform" layoutX="673.0" layoutY="429.0" prefHeight="31.0" prefWidth="160.0" promptText="Platform" />
+      <Label layoutX="582.0" layoutY="428.0" text="Platform :" textFill="#ff620a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="583.0" layoutY="480.0" text="Date :" textFill="#ff620a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXDatePicker fx:id="DatePicker_Date_Of_sale" defaultColor="#ffae00" layoutX="673.0" layoutY="469.0" prefHeight="31.0" prefWidth="170.0" />
+      <ImageView fitHeight="30.0" fitWidth="109.0" layoutX="408.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" scaleX="1.2" scaleY="1.2">
+         <image>
+            <Image url="@../images/selling_word.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="117.0" layoutY="45.0" prefHeight="31.0" prefWidth="742.0" promptText="product name" />
+      <Label layoutX="23.0" layoutY="45.0" text="Search :">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

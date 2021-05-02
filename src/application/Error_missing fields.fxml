@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="warning_page" prefHeight="149.0" prefWidth="438.0" style="-fx-background-color: #f1f1f1;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_Warning_missing_fields">
+   <children>
+      <ImageView fx:id="image_warning" fitHeight="55.0" fitWidth="61.0" layoutX="127.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/error%20icon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label_for_warning" alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="61.0" prefHeight="28.0" prefWidth="394.0" textFill="RED">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="this_ok_button" buttonType="RAISED" layoutX="186.0" layoutY="98.0" onAction="#action_ok_button" onKeyPressed="#pressed_ok_button" prefHeight="31.0" prefWidth="66.0" ripplerFill="#ffe800" style="-fx-background-color: #ffe800;" text="OK">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <Label fx:id="label_warning_fix" layoutX="192.0" layoutY="12.0" prefHeight="40.0" prefWidth="106.0" text="Warning">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
