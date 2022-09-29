@@ -56,7 +56,6 @@ Tiguera Management System is used by businesses to avoid product overstock and o
 
 A project for an inventory management system that allows users to easily manage and maintain their inventories. Users can add inventory, delete inventory, enter inventory quantity and other details, update inventory status, refund, ads manager and more using the inventory management system.
 
-This project is a simulation of the gmae Monopoly, a bunch of transitions has been and audio effects has been added to make the game  interactive as possible for the player.
 
 The project can by used at any company that sell products on the internet or locally. the system can manage the products, selling, ads manager, refund, warehouse...
 
