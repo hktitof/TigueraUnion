@@ -71,7 +71,7 @@ The project can by used at any company that sell products on the internet or loc
 
 
 
-[Back To The Top](#read-me-template)
+
 
 ---
 
