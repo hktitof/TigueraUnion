@@ -2,15 +2,28 @@
 
 
 
-## Login : ![Project Image](https://user-images.githubusercontent.com/62770500/193140200-affb6e74-9835-4ccf-a683-7c21f200e6d3.png)
-## Home : ![Project Image 2](https://user-images.githubusercontent.com/62770500/193140910-0d24b2c1-f02b-4f0c-8dc8-20e0490b2901.png)
+## Login : 
+
+![Project Image](https://user-images.githubusercontent.com/62770500/193140200-affb6e74-9835-4ccf-a683-7c21f200e6d3.png)
+
+## Home : 
+
+![Project Image 2](https://user-images.githubusercontent.com/62770500/193140910-0d24b2c1-f02b-4f0c-8dc8-20e0490b2901.png)
+
 ## Warehouse :
+
 ![Project Image 3](https://user-images.githubusercontent.com/62770500/193141139-eb0a0c2c-6e34-45c1-84d2-83148dc5d023.png)
+
 ## Adevertising : 
+
 ![Project Image 4](https://user-images.githubusercontent.com/62770500/193141323-091f187c-5f59-4ae8-b544-574d5f5eda01.png)
+
 ## Sales :
+
 ![Project Image 5](https://user-images.githubusercontent.com/62770500/193141513-53a55761-e750-4f82-ae54-784cf77f0d82.png)
+
 ## Refunds :
+
 ![Project Image 6](https://user-images.githubusercontent.com/62770500/193141686-1fcc095a-11d8-4dd5-99ed-a4e79a7a8a45.png)
 ---
 
