@@ -81,7 +81,7 @@ The project can by used at any company that sell products on the internet or loc
 ##### Step 1 : cloning the repo to your local machine
 
 ```sh
-    git clone https://github.com/hktitof/MonopolyGameWithTransition.git
+    git clone https://github.com/hktitof/TigueraUnion.git
 ```
 
 ##### Step 2 : Running the project 
