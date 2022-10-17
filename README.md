@@ -48,9 +48,9 @@
 
 ## Description
 
-The Tiguera Management System Project In Java is a program that allows you to keep track of your inventory levels, cash, revenue, orders, sales, add manager and deliveries.
+The Tiguera Management System Project is a program that allows you to keep track of your inventory levels, cash, revenue, orders, sales, ads manager and deliveries.
 
-It can also be used to create work orders, bills of materials, and other production-related documents in the manufacturing industry.
+It can also be used to create orders, bills of materials, and other production-related documents in the manufacturing industry.
 
 Tiguera Management System is used by businesses to avoid product overstock and outages. It’s a program for organizing inventory data that was previously kept on paper or in spreadsheets.
 
